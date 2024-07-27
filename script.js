@@ -1,7 +1,6 @@
 /*****YTPRO*******
-Author: Prateek Chaubey
+Author: Ravan
 Version: 3.4.57
-URI: https://github.com/prateek-chaubey/
 */
 
 
@@ -1450,14 +1449,13 @@ x.setAttribute("style",`height:100%;width:100%;position:fixed;display:grid;align
 x.innerHTML=`
 <div style="height:140px;width:70%;padding:20px;background:rgba(0,0,0,.1);border:1px solid #888;box-shadow:0px 0px 5px black;backdrop-filter:blur(10px);border-radius:15px;margin:auto">
 <h2> Update Available</h2><br>
-Latest Version ${YTProVer} of YTPRO is available , update the YTPRO to get latest features.
+Latest Version ${YTProVer} of Ravan YouTube Premium is available , update the Update Ravan YouTube Premium to get latest features.
 <br>- Improved Background Play<br>
 - Bug fixes and updates
 <br>
 <br>
 <div style="display:flex;">
-<button style="border:0;border-radius:10px;height:30px;width:150px;background:;" onclick="this.parentElement.parentElement.parentElement.remove();">Cancel</button>
-<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="Android.downvid('YTPRO.zip','https://nightly.link/prateek-chaubey/YTPro/workflows/gradle/main/Apk.zip','application/zip');">Download</button>
+<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="Android.downvid('Ravan YouTube Premium.apk','https://nightly.link/prateek-chaubey/YTPro/workflows/gradle/main/Apk.zip','application/zip');">Download</button>
 </div>
 
 </div>
