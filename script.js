@@ -608,12 +608,12 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >YT PRO Settings</b>
 <div>Hide Shorts <span onclick="sttCnf(this,'shorts');" style="${sttCnf(0,0,"shorts")}" ><b style="${sttCnf(0,1,"shorts")}" ></b></span></div> 
 <br>
 <div style="display:flex;justify-content:center;font-family:cursive;text-align:center;font-size:2.25rem;font-weight:bolder;color:#0f8;">Made with 
-&#x2665; by Prateek Chaubey</div>
+&#x2665; by Ravan</div>
 <br><br>
-<div style="font-size:1.25rem;"><b style="font-weight:bold">Disclaimer</b>: This is an unofficial OSS Youtube Mod , all the logos and brand names are property of Google LLC.<br>
-You can get the source code at <a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO')" > https://github.com/prateek-chaubey/YTPRO</a>
+<div style="font-size:1.25rem;"><b style="font-weight:bold">Disclaimer</b>: This is an official Ravan YouTube Premium Apk.<br>
+Join our Telegram channel for more Updates  <a href="#" onclick="Android.oplink('https://t.me/ZenVRavan')" > https://t.me/ZenVRavan</a>
 <br><br><center>
-<a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO/issues')" >Report Bugs</a>
+<a href="#" onclick="Android.oplink('https://t.me/ZenVRavanDiscussion')" >Report Bugs</a>
 </center></div>`;
 
 document.body.appendChild(ytpSet);
@@ -1457,7 +1457,7 @@ Latest Version ${YTProVer} of Ravan YouTube Premium is available , update the Up
 <br>
 <br>
 <div style="display:flex;">
-<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="window.open('https://t.me/ZenVRavan/35');">Download</button>
+<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="Android.oplink('https://t.me/ZenVRavan/35');">Download</button>
 </div>
 
 </div>
