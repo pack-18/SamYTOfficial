@@ -1,20 +1,22 @@
 {
-  "name": "SamYTOfficial",
+  "name": "samytofficial",
   "version": "3.4.57",
   "description": "All in one YouTube App with AdBlocker, Downloader , Background Player , PIP Mode and many more features.",
   "main": "script.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pack-18/SamYTOfficial.git"
-          
+    "url": "git+https://github.com/pack-18/SamYTOfficial.git"
   },
   "keywords": [
     "YOUTUBE"
   ],
   "author": "pack-18",
-  "license": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/pack-18/SamYTOfficial/issues"
   },
-  "homepage": "https://github.com/pack-18/SamYTOfficial#readme"
+  "homepage": "https://github.com/pack-18/SamYTOfficial#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
