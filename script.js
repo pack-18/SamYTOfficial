@@ -692,8 +692,8 @@ updateModel();
 alert("Your app is up to date");
 }
 
-fetch('https://cdn.jsdelivr.net/npm/ytpro', {cache: 'reload'});
-fetch('https://cdn.jsdelivr.net/npm/ytpro/bgplay.js', {cache: 'reload'});
+fetch('https://cdn.jsdelivr.net/npm/samytofficial', {cache: 'reload'});
+fetch('https://cdn.jsdelivr.net/npm/samytofficial/bgplay.js', {cache: 'reload'});
 }
 
 
