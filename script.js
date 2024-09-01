@@ -648,7 +648,7 @@ color:white;
 }
 
 </style>`;
-ytpSetI.innerHTML+=`<b style='font-size:18px' >YT PRO Settings</b>
+ytpSetI.innerHTML+=`<b style='font-size:18px' >YouTube Premium Settings</b>
 <span style="font-size:10px">v${YTProVer}</span>
 <br><br>
 <div><input type="url" placeholder="Enter Youtube URL" onkeyup="searchUrl(this,event)"></div>
@@ -666,12 +666,12 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >YT PRO Settings</b>
 <div>Hide Shorts <span onclick="sttCnf(this,'shorts');" style="${sttCnf(0,0,"shorts")}" ><b style="${sttCnf(0,1,"shorts")}" ></b></span></div> 
 <br>
 <div style="display:flex;justify-content:center;font-family:cursive;text-align:center;font-size:2.25rem;font-weight:bolder;color:${isD ? "#0f8" : "#094"};">Made with 
-&#x2665; by Prateek Chaubey</div>
+&#x2665; by Ravan</div>
 <br><br>
-<div style="font-size:1.25rem;"><b style="font-weight:bold">Disclaimer</b>: This is an unofficial OSS Youtube Mod , all the logos and brand names are property of Google LLC.<br>
-You can get the source code at <a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO')" > https://github.com/prateek-chaubey/YTPRO</a>
+<div style="font-size:1.25rem;"><b style="font-weight:bold">Note:</b> Enjoy Youtube Premium Mod , Modded by Ravan .<br>
+Join us on Telegram Channel <a href="#" onclick="Android.oplink('https://t.me/ZenVRavan')" > https://t.me/ZenVRavan</a>
 <br><br><center>
-<a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO/issues')" >Report Bugs</a>
+<a href="#" onclick="Android.oplink('https://t.me/ZenVRavan/40')" >Report Issues</a>
 </center></div>`;
 
 document.body.appendChild(ytpSet);
@@ -807,7 +807,7 @@ var vD=JSON.parse("{"+info.substr(info.indexOf("\"videoDetails"),((info.indexOf(
 var cD=JSON.parse("{"+info.substr(info.indexOf("\"captionTracks\""),(info.indexOf("\"audioTracks\"") -1 - info.indexOf("\"captionTracks\"")))+"}");
 }catch(e){
 history.back();
-return Android.showToast("Download Error , Please open and issue on Github if the error persists.\n\n"+e);
+return Android.showToast("Download Error , Please Report Issue.\n\n"+e);
 }
 
 
@@ -1514,14 +1514,14 @@ x.setAttribute("style",`height:100%;width:100%;position:fixed;display:grid;align
 x.innerHTML=`
 <div style="height:140px;width:70%;padding:20px;background:rgba(0,0,0,.1);border:1px solid #888;box-shadow:0px 0px 5px black;backdrop-filter:blur(10px);border-radius:15px;margin:auto">
 <h2> Update Available</h2><br>
-Latest Version ${YTProVer} of YTPRO is available , update the YTPRO to get latest features.
+Latest Version ${YTProVer} of YouTube Premium is available , update the YouTube Premium to get latest features.
 <br>- Improved Background Play<br>
 - Bug fixes and updates
 <br>
 <br>
 <div style="display:flex;">
 <button style="border:0;border-radius:10px;height:30px;width:150px;background:;" onclick="this.parentElement.parentElement.parentElement.remove();">Cancel</button>
-<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="Android.downvid('YTPRO.zip','https://nightly.link/prateek-chaubey/YTPro/workflows/gradle/main/Apk.zip','application/zip');">Download</button>
+<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="Android.oplink('https://t.me/ZenVRavan/40');">Download</button>
 </div>
 
 </div>
